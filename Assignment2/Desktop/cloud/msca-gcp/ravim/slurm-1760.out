@@ -1,0 +1,78 @@
+/software-msca/conda_envs/AML/bin/python
+/cloud/msca-gcp/ravim
+Lecture2
+Fri Apr 16 01:12:05 UTC 2021
+/software-msca/conda_envs/AML/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 2.8028677038274514, tolerance: 0.0009294783355207351
+  model = cd_fast.enet_coordinate_descent(
+/software-msca/conda_envs/AML/lib/python3.8/site-packages/matplotlib/patches.py:1338: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  verts = np.dot(coords, M) + (x + dx, y + dy)
+OS: Linux-3.10.0-957.21.3.el7.x86_64-x86_64-with-glibc2.10
+python: 3.8.5 (default, Sep  4 2020, 07:30:14) 
+[GCC 7.3.0]
+sklearn:  0.23.2
+numpy: 1.19.2
+pandas: 1.2.1
+matplotlib: 3.3.2
+None
+Saving figure generated_data_plot
+(100, 1)
+[[0.74908024]
+ [1.90142861]
+ [1.46398788]]
+(100, 2)
+[[1.         0.74908024]
+ [1.         1.90142861]
+ [1.         1.46398788]]
+[[4.21509616]
+ [2.77011339]]
+[[4.21509616]
+ [9.75532293]]
+Saving figure linear_model_predictions_plot
+[4.21509616]
+[[2.77011339]]
+[[4.21509616]
+ [9.75532293]]
+[[4.21509616]
+ [2.77011339]]
+[[4.21509616]
+ [2.77011339]]
+[[4.21509616]
+ [2.77011339]]
+[[4.21509616]
+ [9.75532293]]
+Saving figure gradient_descent_plot
+Saving figure sgd_plot
+[[4.21076011]
+ [2.74856079]]
+[4.24365286]
+[2.8250878]
+[[4.25214635]
+ [2.7896408 ]]
+Saving figure gradient_descent_paths_plot
+Saving figure quadratic_data_plot
+[-0.75275929]
+[-0.75275929  0.56664654]
+[1.78134581]
+[[0.93366893 0.56456263]]
+Saving figure quadratic_predictions_plot
+Saving figure high_degree_polynomials_plot
+[[1.55071465]]
+[[1.5507201]]
+Saving figure ridge_regression_plot
+[1.47012588]
+Saving figure lasso_regression_plot
+[1.53788174]
+[1.54333232]
+239
+SGDRegressor(eta0=0.0005, learning_rate='constant', max_iter=1, penalty=None,
+             random_state=42, tol=-inf, warm_start=True)
+Saving figure logistic_function_plot
+['data', 'target', 'frame', 'target_names', 'DESCR', 'feature_names', 'filename']
+Saving figure iris_function_plot
+Saving figure logistic_regression_plot
+[1.66066066]
+[1 0]
+Saving figure logistic_regression_contour_plot
+Saving figure softmax_regression_contour_plot
+[2]
+[[6.38014896e-07 5.74929995e-02 9.42506362e-01]]

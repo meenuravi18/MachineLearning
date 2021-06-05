@@ -1,0 +1,142 @@
+[I 00:33:31.408 NotebookApp] [nb_conda_kernels] enabled, 1 kernels found
+[I 00:33:32.614 NotebookApp] [nb_conda] enabled
+[I 00:33:32.615 NotebookApp] Serving notebooks from local directory: /cloud/msca-gcp/ravim
+[I 00:33:32.615 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 00:33:32.615 NotebookApp] http://msca-gcp-c30p-001:8888/?token=...
+[I 00:33:32.615 NotebookApp]  or http://127.0.0.1:8888/?token=...
+[I 00:33:32.615 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 00:34:20.287 NotebookApp] 302 GET /?token=fmmrcE7swHDgeWo2vvgSs0lG (205.208.121.161) 0.590000ms
+[I 00:34:45.946 NotebookApp] Creating new notebook in 
+[I 00:34:48.610 NotebookApp] Kernel started: eac0ba99-1468-401b-bc26-3b7dae289b02, name: python3
+[W 00:36:04.135 NotebookApp] Notebook l2_n2.ipynb is not trusted
+[I 00:36:15.384 NotebookApp] Kernel started: 87b5ae9e-e239-400b-9073-d8fbd2b6575f, name: python3
+[I 00:36:48.661 NotebookApp] Saving file at /Untitled4.ipynb
+[I 00:37:42.770 NotebookApp] Saving file at /l2_n2.ipynb
+[I 00:39:15.438 NotebookApp] Uploading file to /l2_n2.py
+[I 00:48:10.005 NotebookApp] Saving file at /l2_n2.ipynb
+[I 00:48:38.519 NotebookApp] Support files will be in 
+[I 00:48:38.519 NotebookApp] Making directory .
+[I 00:48:38.536 NotebookApp] Making directory .
+[I 00:48:38.537 NotebookApp] Making directory .
+[I 00:48:38.537 NotebookApp] Making directory .
+[I 00:48:38.537 NotebookApp] Making directory .
+[I 00:48:38.537 NotebookApp] Making directory .
+[I 00:48:38.537 NotebookApp] Making directory .
+[I 00:48:38.537 NotebookApp] Making directory .
+[I 00:48:38.537 NotebookApp] Making directory .
+[I 00:48:38.537 NotebookApp] Making directory .
+[I 00:48:38.537 NotebookApp] Making directory .
+[I 00:48:38.537 NotebookApp] Making directory .
+[I 00:48:38.537 NotebookApp] Making directory .
+[I 00:48:38.537 NotebookApp] Making directory .
+[I 00:48:38.537 NotebookApp] Making directory .
+[I 00:48:38.538 NotebookApp] Writing 118401 bytes to notebook.tex
+[I 00:48:38.538 NotebookApp] Building PDF
+[E 00:48:38.585 NotebookApp] nbconvert failed: xelatex not found on PATH, if you have not installed xelatex you may need to do so. Find further instructions at https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex.
+    Traceback (most recent call last):
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/notebook/nbconvert/handlers.py", line 129, in get
+        output, resources = exporter.from_notebook_node(
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/nbconvert/exporters/pdf.py", line 183, in from_notebook_node
+        self.run_latex(tex_file)
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/nbconvert/exporters/pdf.py", line 153, in run_latex
+        return self.run_command(self.latex_command, filename,
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/nbconvert/exporters/pdf.py", line 110, in run_command
+        raise OSError("{formatter} not found on PATH, if you have not installed "
+    OSError: xelatex not found on PATH, if you have not installed xelatex you may need to do so. Find further instructions at https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex.
+[W 00:48:38.611 NotebookApp] 500 GET /nbconvert/pdf/l2_n2.ipynb?download=true (205.208.121.161): nbconvert failed: xelatex not found on PATH, if you have not installed xelatex you may need to do so. Find further instructions at https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex.
+[E 00:48:38.617 NotebookApp] {
+      "Host": "35.239.221.33:8888",
+      "Connection": "keep-alive",
+      "Upgrade-Insecure-Requests": "1",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "Referer": "http://35.239.221.33:8888/notebooks/l2_n2.ipynb",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|f51d6181|5fd6e1c7b800c55855347444fa730ae3|1618530955; username-35-239-221-33-8888=\"2|1:0|10:1618533260|27:username-35-239-221-33-8888|44:NzE1ODRmY2U1NTIyNDQxYzlmNDdiM2Q5NTBiYzNkZmE=|806b57ab80198ed4bd1f0619eb4eef5fce6b18351f2de2965e300a08dfef9d50\""
+    }
+[E 00:48:38.618 NotebookApp] 500 GET /nbconvert/pdf/l2_n2.ipynb?download=true (205.208.121.161) 2250.580000ms referer=http://35.239.221.33:8888/notebooks/l2_n2.ipynb
+[E 00:48:43.804 NotebookApp] Uncaught exception GET /nbconvert/html/l2_n2.ipynb?download=true (205.208.121.161)
+    HTTPServerRequest(protocol='http', host='35.239.221.33:8888', method='GET', uri='/nbconvert/html/l2_n2.ipynb?download=true', version='HTTP/1.1', remote_ip='205.208.121.161')
+    Traceback (most recent call last):
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/tornado/gen.py", line 234, in wrapper
+        yielded = ctx_run(next, result)
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/notebook/nbconvert/handlers.py", line 92, in get
+        exporter = get_exporter(format, config=self.config, log=self.log)
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/notebook/nbconvert/handlers.py", line 67, in get_exporter
+        Exporter = get_exporter(format)
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/nbconvert/exporters/base.py", line 102, in get_exporter
+        if getattr(exporter(config=config), 'enabled', True):
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/nbconvert/exporters/templateexporter.py", line 325, in __init__
+        super().__init__(config=config, **kw)
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/nbconvert/exporters/exporter.py", line 114, in __init__
+        self._init_preprocessors()
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/nbconvert/exporters/templateexporter.py", line 491, in _init_preprocessors
+        conf = self._get_conf()
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/nbconvert/exporters/templateexporter.py", line 511, in _get_conf
+        conf = recursive_update(conf, json.load(f))
+      File "/software-msca/conda_envs/AML/lib/python3.8/json/__init__.py", line 293, in load
+        return loads(fp.read(),
+      File "/software-msca/conda_envs/AML/lib/python3.8/json/__init__.py", line 357, in loads
+        return _default_decoder.decode(s)
+      File "/software-msca/conda_envs/AML/lib/python3.8/json/decoder.py", line 337, in decode
+        obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+      File "/software-msca/conda_envs/AML/lib/python3.8/json/decoder.py", line 355, in raw_decode
+        raise JSONDecodeError("Expecting value", s, err.value) from None
+    json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[E 00:48:43.838 NotebookApp] {
+      "Host": "35.239.221.33:8888",
+      "Connection": "keep-alive",
+      "Upgrade-Insecure-Requests": "1",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "Referer": "http://35.239.221.33:8888/notebooks/l2_n2.ipynb",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|f51d6181|5fd6e1c7b800c55855347444fa730ae3|1618530955; username-35-239-221-33-8888=\"2|1:0|10:1618533260|27:username-35-239-221-33-8888|44:NzE1ODRmY2U1NTIyNDQxYzlmNDdiM2Q5NTBiYzNkZmE=|806b57ab80198ed4bd1f0619eb4eef5fce6b18351f2de2965e300a08dfef9d50\""
+    }
+[E 00:48:43.838 NotebookApp] 500 GET /nbconvert/html/l2_n2.ipynb?download=true (205.208.121.161) 47.100000ms referer=http://35.239.221.33:8888/notebooks/l2_n2.ipynb
+[W 00:50:35.015 NotebookApp] delete /l2_n2.py
+[E 00:50:35.026 NotebookApp] Uncaught exception DELETE /api/contents/l2_n2.py (205.208.121.161)
+    HTTPServerRequest(protocol='http', host='35.239.221.33:8888', method='DELETE', uri='/api/contents/l2_n2.py', version='HTTP/1.1', remote_ip='205.208.121.161')
+    Traceback (most recent call last):
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/tornado/gen.py", line 234, in wrapper
+        yielded = ctx_run(next, result)
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/notebook/services/contents/handlers.py", line 237, in delete
+        yield maybe_future(cm.delete(path))
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/notebook/services/contents/manager.py", line 279, in delete
+        self.delete_file(path)
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/notebook/services/contents/filemanager.py", line 533, in delete_file
+        send2trash(os_path)
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/send2trash/plat_other.py", line 192, in send2trash
+        trash_move(path_b, dest_trash, topdir)
+      File "/software-msca/conda_envs/AML/lib/python3.8/site-packages/send2trash/plat_other.py", line 103, in trash_move
+        os.rename(src, op.join(filespath, destname))
+    OSError: [Errno 18] Invalid cross-device link: b'/cloud/msca-gcp/ravim/l2_n2.py' -> b'/home/ravim/.local/share/Trash/files/l2_n2.py'
+[W 00:50:35.071 NotebookApp] Unhandled error
+[E 00:50:35.071 NotebookApp] {
+      "Host": "35.239.221.33:8888",
+      "Connection": "keep-alive",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|f51d6181|5fd6e1c7b800c55855347444fa730ae3|1618530955",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
+      "Origin": "http://35.239.221.33:8888",
+      "Referer": "http://35.239.221.33:8888/tree",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "_xsrf=2|f51d6181|5fd6e1c7b800c55855347444fa730ae3|1618530955; username-35-239-221-33-8888=\"2|1:0|10:1618533260|27:username-35-239-221-33-8888|44:NzE1ODRmY2U1NTIyNDQxYzlmNDdiM2Q5NTBiYzNkZmE=|806b57ab80198ed4bd1f0619eb4eef5fce6b18351f2de2965e300a08dfef9d50\""
+    }
+[E 00:50:35.071 NotebookApp] 500 DELETE /api/contents/l2_n2.py (205.208.121.161) 56.370000ms referer=http://35.239.221.33:8888/tree
+[I 00:51:07.951 NotebookApp] Copying l2_n2.ipynb to 
+[I 00:51:12.506 NotebookApp] Kernel started: 5abc46a9-7848-46bb-81b7-120f9884d46a, name: python3
+[I 00:53:14.112 NotebookApp] Saving file at /l2_n2_py.ipynb
+[I 00:55:27.835 NotebookApp] Saving file at /l2_n2_py.ipynb
+[I 00:58:08.551 NotebookApp] Saving file at /l2_n2_py.ipynb
+[I 01:00:48.491 NotebookApp] Saving file at /l2_n2_py.ipynb
+[I 01:01:13.001 NotebookApp] Saving file at /l2_n2_py.ipynb
+[I 01:01:35.271 NotebookApp] Uploading file to /l2_n2.py

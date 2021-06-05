@@ -1,0 +1,12 @@
+{
+  "base_url": "/",
+  "hostname": "0.0.0.0",
+  "notebook_dir": "/cloud/msca-gcp/ravim",
+  "password": false,
+  "pid": 10234,
+  "port": 8888,
+  "secure": false,
+  "sock": "",
+  "token": "h9R702JhBbi75bZYZ5kyJVip",
+  "url": "http://0.0.0.0:8888/"
+}
